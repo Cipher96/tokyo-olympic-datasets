@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "raw_entriesgender",
+				"fileName": "raw_entriesgender.csv",
 				"folderPath": "raw-data",
 				"fileSystem": "tokyoolympicdatasets"
 			},
