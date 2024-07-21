@@ -1,0 +1,12 @@
+{
+	"name": "EntriesGenderHTTP",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/Cipher96/tokyo-olympic-datasets/raw/main/data/EntriesGender.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
