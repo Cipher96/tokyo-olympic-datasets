@@ -40,8 +40,8 @@ Creating container in the Azure Storage to store and access the data from a hier
 <br>
 
 **Azure Databricks**<br>
-1. Create a compute instance/cluster
-2. Create a new notebook to write the transformation logic
+1. Create a compute instance/cluster![image](https://github.com/user-attachments/assets/01f847fd-6864-41f5-93b0-023f51d2888d)
+2. Create a new notebook to write the transformation logic![image](https://github.com/user-attachments/assets/0ff9e2f6-49a8-4af4-908e-32884f25a355)
 3. To get the connection between the Databricks and Azure storage create a new app registration (make sure you keep the necessary credentials in Azure Key Vault). App registration is necessary because by registering your app and correctly configuring it to use Azure AD, you ensure that your application leverages robust security, seamless authentication, and secure access to resources, all while adhering to industry standards for identity management.![image](https://github.com/user-attachments/assets/74c82968-8bfc-4839-9035-b91686281ecc)
 4. Add role assignment to the Azure Container using the IAM Access Control to make sure our app can access data from the data lake.![image](https://github.com/user-attachments/assets/72250b77-696b-4588-8c0a-7d27002cf70c)
 ![image](https://github.com/user-attachments/assets/43f1715c-4b85-4685-8652-577c9071327c)
