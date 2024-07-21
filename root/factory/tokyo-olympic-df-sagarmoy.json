@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-olympic-df-sagarmoy",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fb2ca7d7-b88b-4c41-887b-1306ef444114",
+		"tenantId": "bbb375f1-fa5a-4245-bb62-ff782471d937"
+	}
+}
