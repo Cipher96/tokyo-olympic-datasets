@@ -48,5 +48,13 @@ Creating container in the Azure Storage to store and access the data from a hier
 5. Generally we need to create a spark session from scratch to create and run the spark application but in Databricks these sessions are already pre-defined and assigned to the spark application.
 6. Transform and load data into storage (tokyoolympicdatasets/gold_data)![image](https://github.com/user-attachments/assets/d5b1d7f5-4102-4efe-aba3-55b2f41a56ea)
 
+<br>
+<br>
+
+**Azure Synapse for Data Analysis**
+
+
+
+
 
 
