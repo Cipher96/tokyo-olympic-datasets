@@ -58,7 +58,13 @@ Creating container in the Azure Storage to store and access the data from a hier
 2. Verify that you have the ADLS Gen 2 linked with the synapse workspace in the Linked Tab od Data section.![image](https://github.com/user-attachments/assets/c5f5a3bc-ad4e-449f-bde8-ae6f7df1888d)
 3. Created a Lake Database to analyse the data in a Serverless SQl Pool.![image](https://github.com/user-attachments/assets/fae330a3-3d00-4984-971a-5da5a8a0ad9f)
 4. In the Develop section create a new SQL Script/ Notebook to analyse the data.![image](https://github.com/user-attachments/assets/fb632433-15b8-4261-b7d7-dbfef8b13cb7)
+5. Along with viewing the Data, we can also visualise the data in the Chart section.![image](https://github.com/user-attachments/assets/c8f19a9c-a444-47e8-9428-2df8d1ad8e9b)
 
+**Visualization in Tableau/Power BI**
+we can connect Tableau/Power BI to the Storage account and create interactive dashboard. (this is not covered in the scope of this project, it mainly focuses on the Azure services and tools with respect to Data Engineering only.)
+
+**Thanks**
+If you like this project please do a fork.
 
 
 
