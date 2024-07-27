@@ -14,6 +14,7 @@ Storing the datasets of the Tokyo Olympics in CSV format in main/data directory,
 **Resource Group**<br>
 Creating the resource group for a structured way of managing, monitoring, and securing resources, enhancing operational efficiency and governance.
 The resource group will list all the resources used/created.
+We will be creating/using the same resource group for all the Azure services.
 ![image](https://github.com/user-attachments/assets/17cad07a-989b-4219-97d6-e6aa42952523)
 <br>
 <br>
@@ -43,7 +44,7 @@ Creating container in the Azure Storage to store and access the data from a hier
 1. Create a compute instance/cluster![image](https://github.com/user-attachments/assets/01f847fd-6864-41f5-93b0-023f51d2888d)
 2. Create a new notebook to write the transformation logic![image](https://github.com/user-attachments/assets/0ff9e2f6-49a8-4af4-908e-32884f25a355)
 3. To get the connection between the Databricks and Azure storage create a new app registration (make sure you keep the necessary credentials in Azure Key Vault). App registration is necessary because by registering your app and correctly configuring it to use Azure AD, you ensure that your application leverages robust security, seamless authentication, and secure access to resources, all while adhering to industry standards for identity management.![image](https://github.com/user-attachments/assets/74c82968-8bfc-4839-9035-b91686281ecc)
-4. Add role assignment to the Azure Container using the IAM Access Control to make sure our app can access data from the data lake.![image](https://github.com/user-attachments/assets/72250b77-696b-4588-8c0a-7d27002cf70c)
+4. Add role assignment to the Azure Container using the IAM Access Control to ensure our app can access data from the data lake.![image](https://github.com/user-attachments/assets/72250b77-696b-4588-8c0a-7d27002cf70c)
 ![image](https://github.com/user-attachments/assets/43f1715c-4b85-4685-8652-577c9071327c)
 5. Generally we need to create a spark session from scratch to create and run the spark application but in Databricks these sessions are already pre-defined and assigned to the spark application.
 6. Transform and load data into storage (tokyoolympicdatasets/gold_data)![image](https://github.com/user-attachments/assets/d5b1d7f5-4102-4efe-aba3-55b2f41a56ea)
